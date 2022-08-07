@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversion Calculator</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+    <h1 id="title">
+        VAT Calculator
+    </h1>
+
+    <div id="app">
+        View the answer in the console
+    </div>
+
+    <!-- Start of Script -->
+    <script>
+
+        // VAT constant:
+        const vat = 14;
+
+        const amount = prompt("cost");
+        var price = amount
+
+        /*Step 1: To work out a price excluding VAT, you divide your price by 1.15 VAT Rate of 15%: Price / 1.15 = net price.
+        Step 2: The result of this calculation is your net price, excluding VAT. For example: R175 / 1.15 = R152.17 = net price.*/
+
+        function vatCalc(cost) {
+            return (price / 1.15) 
+        }
+
+        function netPrice (netPrice){
+            return (vatCalc )
+        }
+
+        
+        //insert monetary value as vatCalc parameter because I don't know how to make it prompt for this yet.
+        console.log( + vatCalc())
+
+
+        let result;// save result of calculation to answer variable.
+
+        // log VAT out to consol, DOM, or alert
+        console.log("The VAT of entered amount is " + result);
+
+    </script>
+    <!-- End of Script -->
+
+</body>
+
+</html>
